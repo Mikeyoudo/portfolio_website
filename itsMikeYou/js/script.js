@@ -95,13 +95,18 @@ $(document).ready(function() {
     }
   });
 
+//activates the fancy box bit
   $("[data-fancybox]").fancybox();
 
   $(".items").isotype({
+    //filter all
     filter: '*',
+    //so when you click on the link of your portfolio portion, you'll see your pics go, well animated.
     animationOptions: {
       duration: 1500,
+      //smoothness and direction of animation
       easing: 'linear',
+      //
       queue: false
     }
   });

@@ -109,15 +109,25 @@ body {
   margin-top: 30px;
   position: relative;
 }
-
+/*
+yOU CAN SAY THE START OF your stats section
+*/
 .squareInnerContainer {
   position: relative;
   padding: 50px 15px 35px;
   text-align: center;
   border: 2px solid #444;
+
+  /*
+So yea border top none, yur making space for your icons
+  */
   border-top: none;
 }
-
+/*
+Your css code inserted before and after squareInnerContainer
+sO your lines will take up 30% of the div, aka squareInnerContainer
+    before and after the line
+*/
 .squareInnerContainer:before,
 .squareInnerContainer:after {
   content: '';
@@ -127,9 +137,16 @@ body {
   border-bottom: 2px solid #444;
 }
 
+/*
+So There shouldn't be anything to the right o f your box on this part
+*/
 .squareInnerContainer:before {
   right: 0px;
 }
+
+/*
+Just as how there's houldn't be anything left of your bobx on this part
+*/
 
 .squareInnerContainer:after {
   left: 0px;
@@ -148,6 +165,9 @@ body {
   margin: 0;
 }
 
+ /*
+Okay look this is your icons in your stats page
+ */
 .squareIcon {
   position: absolute;
   left: 50%;
@@ -155,6 +175,7 @@ body {
   width: 40%;
   height: 60px;
   font-size: 45px;
+  margin-left: -20%;
   color: #444;
 }
 
@@ -173,7 +194,9 @@ body {
   background-color: #fff;
 
 }
-
+/*
+ANyways portfolio section
+*/
 .filter a {
   color: #bdc3c7;
   border: 1px solid #bdc3c7;
@@ -203,6 +226,12 @@ body {
   width: 100%;
 }
 
+/*
+to here
+*/
+/*
+portfolio section lets face it
+*/
 .items li {
   display: inline-block;
   padding: 5px;
